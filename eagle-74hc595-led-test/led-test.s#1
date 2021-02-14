@@ -6042,7 +6042,7 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 <wire x1="-63.5" y1="45.72" x2="-53.34" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="N$40" class="0">
 <segment>
 <pinref part="IC1" gate="P" pin="VCC"/>
 <wire x1="-7.62" y1="30.48" x2="-12.7" y2="30.48" width="0.1524" layer="91"/>

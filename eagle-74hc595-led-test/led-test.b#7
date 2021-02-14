@@ -675,11 +675,11 @@ design rules under a new name.</description>
 <element name="LED1" library="led" package="SMARTLED-TTW" value="" x="27.94" y="74.93" rot="R90"/>
 <element name="LED2" library="led" package="SMARTLED-TTW" value="" x="27.94" y="72.39" rot="R90"/>
 <element name="LED3" library="led" package="SMARTLED-TTW" value="" x="27.94" y="69.85" rot="R90"/>
-<element name="LED4" library="led" package="SMARTLED-TTW" value="" x="27.94" y="60.96" rot="R90"/>
-<element name="LED5" library="led" package="SMARTLED-TTW" value="" x="27.94" y="57.15" rot="R90"/>
-<element name="LED6" library="led" package="SMARTLED-TTW" value="" x="27.94" y="53.34" rot="R90"/>
-<element name="LED7" library="led" package="SMARTLED-TTW" value="" x="27.94" y="49.53" rot="R90"/>
-<element name="LED8" library="led" package="SMARTLED-TTW" value="" x="27.94" y="45.72" rot="R90"/>
+<element name="LED4" library="led" package="SMARTLED-TTW" value="" x="27.94" y="67.31" rot="R90"/>
+<element name="LED5" library="led" package="SMARTLED-TTW" value="" x="27.94" y="64.77" rot="R90"/>
+<element name="LED6" library="led" package="SMARTLED-TTW" value="" x="27.94" y="62.23" rot="R90"/>
+<element name="LED7" library="led" package="SMARTLED-TTW" value="" x="27.94" y="59.69" rot="R90"/>
+<element name="LED8" library="led" package="SMARTLED-TTW" value="" x="27.94" y="57.15" rot="R90"/>
 </elements>
 <signals>
 <signal name="N$2">
@@ -701,8 +701,8 @@ design rules under a new name.</description>
 <wire x1="83.82" y1="77.47" x2="83.82" y2="67.31" width="0.8128" layer="16"/>
 <wire x1="54.61" y1="72.39" x2="60.96" y2="72.39" width="0.8128" layer="16"/>
 <wire x1="83.82" y1="77.47" x2="60.96" y2="77.47" width="0.8128" layer="16"/>
+<wire x1="60.96" y1="72.39" x2="60.96" y2="77.47" width="0.8128" layer="16"/>
 <wire x1="90.17" y1="67.31" x2="91.44" y2="67.31" width="0" layer="19" extent="1-16"/>
-<wire x1="60.96" y1="72.39" x2="60.96" y2="77.47" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$4">
 <contactref element="IC1" pad="11"/>
@@ -732,9 +732,6 @@ design rules under a new name.</description>
 <wire x1="54.61" y1="62.23" x2="73.66" y2="62.23" width="0.8128" layer="16"/>
 <wire x1="73.66" y1="62.23" x2="73.66" y2="62.23" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="N$5">
-<wire x1="60.96" y1="72.39" x2="60.96" y2="77.47" width="0.8128" layer="1"/>
-</signal>
 <signal name="N$7">
 <contactref element="IC1" pad="15"/>
 <contactref element="LED1" pad="A@1"/>
@@ -754,8 +751,38 @@ design rules under a new name.</description>
 <signal name="N$9">
 <contactref element="LED3" pad="A@1"/>
 <contactref element="IC1" pad="2"/>
-<wire x1="28.44" y1="69.85" x2="46.99" y2="69.85" width="0" layer="19" extent="1-1"/>
 <wire x1="46.99" y1="69.85" x2="27.94" y2="69.85" width="0.8128" layer="16"/>
+<wire x1="27.94" y1="69.85" x2="28.44" y2="69.85" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="N$10">
+<contactref element="IC1" pad="3"/>
+<contactref element="LED4" pad="A@1"/>
+<wire x1="46.99" y1="67.31" x2="29.21" y2="67.31" width="0.8128" layer="16"/>
+<wire x1="29.21" y1="67.31" x2="28.44" y2="67.31" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="N$11">
+<contactref element="IC1" pad="4"/>
+<contactref element="LED5" pad="A@1"/>
+<wire x1="46.99" y1="64.77" x2="29.21" y2="64.77" width="0.8128" layer="16"/>
+<wire x1="29.21" y1="64.77" x2="28.44" y2="64.77" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="N$12">
+<contactref element="IC1" pad="5"/>
+<contactref element="LED6" pad="A@1"/>
+<wire x1="46.99" y1="62.23" x2="27.94" y2="62.23" width="0.8128" layer="16"/>
+<wire x1="27.94" y1="62.23" x2="28.44" y2="62.23" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="N$13">
+<contactref element="IC1" pad="6"/>
+<contactref element="LED7" pad="A@1"/>
+<wire x1="46.99" y1="59.69" x2="27.94" y2="59.69" width="0.8128" layer="16"/>
+<wire x1="27.94" y1="59.69" x2="28.44" y2="59.69" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="N$14">
+<contactref element="IC1" pad="7"/>
+<contactref element="LED8" pad="A@1"/>
+<wire x1="46.99" y1="57.15" x2="27.94" y2="57.15" width="0.8128" layer="16"/>
+<wire x1="27.94" y1="57.15" x2="28.44" y2="57.15" width="0" layer="19" extent="1-16"/>
 </signal>
 </signals>
 </board>
